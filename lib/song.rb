@@ -38,8 +38,8 @@ class Song
     if self.all.find {|artist| artist.name == name}
       self.all.find {|artist| artist.name == name}
     else
-      new_artist = Artist.new(name)
-      new_artist
+      new_song = Song.new(name)
+      new_song
     end
   end
   
